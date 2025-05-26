@@ -1,9 +1,4 @@
-````markdown
 # 🎯 Compiler Project - PBL Submission
-
-![Build](https://img.shields.io/badge/build-passing-brightgreen)
-![Platform](https://img.shields.io/badge/platform-Ubuntu%2016.04-blue)
-![License](https://img.shields.io/badge/license-MIT-blue)
 
 This repository contains a **custom-built compiler** developed in `C`, created as part of our **Project-Based Learning (PBL)** assignment for the *Compiler Construction* course at **Graphic Era University** 🏫.
 
@@ -20,7 +15,7 @@ This repository contains a **custom-built compiler** developed in `C`, created a
 ```bash
 cd Compiler
 make
-````
+
 
 ✔️ This creates an executable named `compiler` in the same directory.
 
