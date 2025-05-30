@@ -1,4 +1,4 @@
-# 🎯 Compiler Project - PBL Submission
+# 🎯 Compiler Project
 
 This repository contains a **custom-built compiler** developed in `C`, created as part of our **Project-Based Learning (PBL)** assignment for the *Compiler Construction* course at **Graphic Era University** 🏫.
 
@@ -54,15 +54,18 @@ gcc code.o
 | ⚙️ Code Generation   | Produces x86-64 assembly for valid programs. Supports only `main()` and integers. |
 
 ---
+## 👨‍💻 **Author**
 
-## 👥 Project Team
+**Raghav Shukla**
+📌 [GitHub Profile](https://github.com/raghavshuklaofficial)
 
-Developed by:
+---
 
-* **[Raghav Shukla](https://github.com/raghavshuklaofficial)**
-* **Jalaj Goel**
-* **Divyansh Singh**
+## 📄 **License**
 
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+---
 ---
 
 📌 *Academic project focused on compiler design using C — highlighting all major compilation phases from lexical to code generation.*
