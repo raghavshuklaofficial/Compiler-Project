@@ -1,4 +1,4 @@
-# 🎯 Compiler Project
+# 🎯 Custom Compiler
 
 This repository contains a **custom-built compiler** developed in `C`, created as part of our **Project-Based Learning (PBL)** assignment for the *Compiler Construction* course at **Graphic Era University** 🏫.
 
