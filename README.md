@@ -1,6 +1,6 @@
 # 🎯 Custom Compiler
 
-This repository contains a **custom-built compiler** developed in `C`, created as part of our **Project-Based Learning (PBL)** assignment for the *Compiler Construction* course at **Graphic Era University** 🏫.
+This repository contains a **custom-built compiler** developed in `C`, created as part of our **Project-Based Learning (PBL)** assignment for the *Compiler Design* course at **Graphic Era University** 🏫.
 
 📄 The compiler follows the rules defined in the provided `Language_Specifications.pdf` and processes input source files accordingly. If the input passes **both syntax and semantic checks**, the compiler generates equivalent **assembly-level output** 🛠️.
 👉 Sample input programs are available in the `Compiler/testcases/` folder.
