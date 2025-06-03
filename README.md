@@ -34,6 +34,25 @@ make
 * Choose `0` to **exit** safely.
   *(Note: Ctrl + C may leave the `.asm` file empty)*
 
+## 🧩 Menu Options – Custom Compiler
+
+*Select an option when prompted in the terminal interface:*
+
+| **Option** | **Action**                        | **Description**                                                                 |
+|-----------:|-----------------------------------|---------------------------------------------------------------------------------|
+| `0`        | ❌ **Exit**                        | Graceful shutdown *(⚠ Avoid Ctrl+C — it may leave `.asm` file empty)*          |
+| `1`        | 📝 **Remove Comments**             | Displays source code with all comments stripped                                |
+| `2`        | 🧾 **Print Token Stream**          | Shows all tokens recognized by the lexer                                       |
+| `3`        | 📚 **Parse Source Code**           | Checks syntax using the parser                                                 |
+| `4`        | 🌳 **Print Parse Tree**            | Displays the parse tree in in-order traversal                                  |
+| `5`        | 📊 **Memory Stats**                | Compares memory usage of Parse Tree vs AST                                     |
+| `6`        | 📋 **Print Symbol Table**          | Displays scopes, identifiers, and types                                        |
+| `7`        | 🧠 **Activation Record Size**      | Prints the size of activation records per function                             |
+| `8`        | 🧬 **Print AST**                   | Displays the Abstract Syntax Tree (AST)                                        |
+| `9`        | ✅ **Semantic Checks**             | Performs type checking, identifier validation, etc.                            |
+| `10`       | ⚙️ **Generate Assembly Code**      | Produces `.asm` file from AST                                                  |
+
+
 🛠️ Example to compile and run the generated ASM:
 
 ```bash
