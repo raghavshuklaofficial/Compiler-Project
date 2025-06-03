@@ -15,7 +15,7 @@ This repository contains a **custom-built compiler** developed in `C`, created a
 ```bash
 cd Compiler
 make
-
+```
 
 ✔️ This creates an executable named `compiler` in the same directory.
 
