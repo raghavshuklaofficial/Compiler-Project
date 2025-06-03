@@ -56,6 +56,8 @@ Custom_Compiler/
 ├── test_cases.py          # Unit tests for compiler components
 └── README.md              # Project documentation
 
+```
+
 ## 🧩 Compiler Workflow (Option 10)
 
 | 🔄 **Phase**         | 📝 **Description**                                                                |
