@@ -44,6 +44,18 @@ gcc code.o
 
 ---
 
+## 📁 **Project Structure**
+
+```plaintext
+Custom_Compiler/
+├── lexer.py               # Tokenizer for the custom language
+├── parser.py              # Recursive descent parser
+├── interpreter.py         # Evaluation engine for expressions
+├── compiler.py            # Combines all stages (lex → parse → eval)
+├── sample_code.txt        # Sample source code input
+├── test_cases.py          # Unit tests for compiler components
+└── README.md              # Project documentation
+
 ## 🧩 Compiler Workflow (Option 10)
 
 | 🔄 **Phase**         | 📝 **Description**                                                                |
