@@ -48,13 +48,36 @@ gcc code.o
 
 ```plaintext
 Custom_Compiler/
-├── lexer.py               # Tokenizer for the custom language
-├── parser.py              # Recursive descent parser
-├── interpreter.py         # Evaluation engine for expressions
-├── compiler.py            # Combines all stages (lex → parse → eval)
-├── sample_code.txt        # Sample source code input
-├── test_cases.py          # Unit tests for compiler components
-└── README.md              # Project documentation
+├── Compiler/
+│   ├── ast.c               # Implements AST traversal and utility functions
+│   ├── ast.h               # Declarations for AST structures and functions
+│   ├── astNode.c           # Defines various types of AST nodes
+│   ├── astNode.h           # Header for AST node definitions
+│   ├── codeGen.c           # Converts AST into target assembly instructions
+│   ├── codeGen.h           # Header for code generation functions
+│   ├── compiler.c          # Main entry point for invoking compilation phases
+│   ├── driver.c            # CLI input handling, integrates different modules
+│   ├── driver.h            # Header for driver module
+│   ├── grammar.c           # Loads and processes grammar rules
+│   ├── grammar.h           # Grammar rule structure definitions
+│   ├── lexer.c             # Tokenization logic for source code
+│   ├── lexerDef.h          # Definitions and enums for lexer tokens
+│   ├── lexerFun.c          # Lexer helper functions
+│   ├── parser.c            # Syntax analysis (parsing) logic
+│   ├── parserDef.h         # Data structures used by the parser
+│   ├── parserFun.c         # Parser utility and recursive functions
+│   ├── semantic.c          # Semantic analysis and validation
+│   ├── semanticDef.h       # Semantic analysis data structures
+│   ├── semanticFun.c       # Helper functions for semantic checks
+│   ├── stack.c             # Generic stack implementation
+│   ├── stack.h             # Header for stack operations
+│   ├── symbolTable.c       # Manages identifiers and their scopes/types
+│   ├── symbolTable.h       # Symbol table structures and declarations
+│   └── syntaxTree.c        # Builds syntax tree from tokens using grammar
+├── Conventions.txt         # Guidelines on code styling and formatting
+├── Language specifications.pdf  # Formal language grammar and rules
+├── License                 # MIT License for open-source usage
+└── README.md               # Project documentation and setup guide
 
 ```
 
